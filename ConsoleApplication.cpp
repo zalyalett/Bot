@@ -24,7 +24,7 @@ int main()
         filesystem::create_directory(MusicPth);
     }
 
-    TgBot::Bot bot("8385895906:AAHlgGCj4g-EwOmK7sDbinCkQJsnokIWhtg");
+    TgBot::Bot bot("мой токен");
 
     bot.getEvents().onCommand("start", [&bot](TgBot::Message::Ptr message) {
         try {
